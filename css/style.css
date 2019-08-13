@@ -1,5 +1,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    min-width: 400px;
 }
 
 
@@ -15,14 +16,15 @@ body {
     }
 }
 
-#h1{
+#h1 {
     font-size: 2rem;
 }
 
 
-hr{
-    width: 70vmax;
+hr {
+    width: 50rem;
 }
+
 li {
     animation: appear ease 2s;
 }
@@ -62,6 +64,6 @@ li {
     background: linear-gradient(#fe2828, #fef41d) !important;
 }
 
-.col-sm-10{
+.col-sm-10 {
     margin: 30px;
 }
