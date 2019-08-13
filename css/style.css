@@ -16,7 +16,7 @@ body {
 }
 
 li {
-    animation: appear ease 5s;
+    animation: appear ease 2s;
 }
 
 .navbar {
