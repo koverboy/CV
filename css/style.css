@@ -1,0 +1,61 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        margin-left: 100px;
+
+    }
+    to {
+        margin-left: 0;
+        opacity: 100%;
+    }
+}
+
+li {
+    animation: appear ease 5s;
+}
+
+.navbar {
+    margin-bottom: 50px;
+}
+
+.navbar-light {
+    background-color: #fe2828;
+}
+
+.nav-link {
+    color: #fee432;
+}
+
+.row {
+    margin: 30px;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: center;
+}
+
+.myphoto {
+    margin-left: 20px;
+    min-width: 100px;
+    max-width: 25vmax;
+    height: 20vmax;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.prewiu {
+    margin: 0 auto;
+}
+
+.card-header {
+
+    background: linear-gradient(#fe2828, #fef41d) !important;
+}
+
+
