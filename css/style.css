@@ -15,6 +15,14 @@ body {
     }
 }
 
+#h1{
+    font-size: 2rem;
+}
+
+
+hr{
+    width: 70vmax;
+}
 li {
     animation: appear ease 2s;
 }
@@ -29,10 +37,6 @@ li {
 
 .nav-link {
     color: #fee432;
-}
-
-.row {
-    margin: 30px;
 }
 
 .aboutme {
@@ -58,4 +62,6 @@ li {
     background: linear-gradient(#fe2828, #fef41d) !important;
 }
 
-
+.col-sm-10{
+    margin: 30px;
+}
