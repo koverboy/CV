@@ -20,9 +20,20 @@ body {
     font-size: 2rem;
 }
 
+@keyframes liner{
+
+    from{
+        width: 0;
+    }
+    to{
+        width: 90%;
+    }
+}
+
 
 hr {
-    width: 50rem;
+    animation: liner 2s ease;
+    width: 90%;
 }
 
 li {
