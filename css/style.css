@@ -11,9 +11,13 @@ body {
     }
     to {
         margin-left: 0;
-        opacity: 100%;
+        opacity: 1;
     }
 }
+#article{
+    opacity: 0.8;
+}
+
 
 #text{
     font-size: 1.2rem;
